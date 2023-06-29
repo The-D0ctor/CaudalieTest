@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C8789CBED528E5C6C072FD /* Pods_CaudalieTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E6FDE13C9852E599AEEE2B /* Pods_CaudalieTest.framework */; };
+		10B2812F0F85614DBDABC838 /* Pods_CaudalieTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8012DE245C8D2F0311A6A49 /* Pods_CaudalieTestUITests.framework */; };
+		2C6752C12A272BB400202535 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6752C02A272BB400202535 /* Media.swift */; };
+		2C6752C52A272EAE00202535 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6752C32A272EAE00202535 /* MediaTableViewCell.swift */; };
+		2C6752C62A272EAE00202535 /* MediaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C6752C42A272EAE00202535 /* MediaTableViewCell.xib */; };
+		2C6752CA2A2732A700202535 /* MediaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6752C92A2732A700202535 /* MediaListViewModel.swift */; };
+		2C6752CD2A2741E400202535 /* ObservableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6752CC2A2741E400202535 /* ObservableExtension.swift */; };
+		2C6752CF2A275A6200202535 /* MediaImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6752CE2A275A6200202535 /* MediaImageViewModel.swift */; };
+		2C6752D12A276D6400202535 /* MediaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6752D02A276D6400202535 /* MediaDetailsViewController.swift */; };
+		2CC694B52A263740007CB989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC694B42A263740007CB989 /* AppDelegate.swift */; };
+		2CC694B72A263740007CB989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC694B62A263740007CB989 /* SceneDelegate.swift */; };
+		2CC694B92A263740007CB989 /* ListMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC694B82A263740007CB989 /* ListMediaViewController.swift */; };
+		2CC694BC2A263740007CB989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC694BA2A263740007CB989 /* Main.storyboard */; };
+		2CC694BE2A263743007CB989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC694BD2A263743007CB989 /* Assets.xcassets */; };
+		2CC694C12A263743007CB989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC694BF2A263743007CB989 /* LaunchScreen.storyboard */; };
+		2CC694CC2A263744007CB989 /* CaudalieTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC694CB2A263744007CB989 /* CaudalieTestTests.swift */; };
+		2CC694D62A263744007CB989 /* CaudalieTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC694D52A263744007CB989 /* CaudalieTestUITests.swift */; };
+		2CC694D82A263744007CB989 /* CaudalieTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC694D72A263744007CB989 /* CaudalieTestUITestsLaunchTests.swift */; };
+		C2F0CC9C401094AF4247338C /* Pods_CaudalieTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CD5F625086786FB98992B4 /* Pods_CaudalieTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CC694C82A263744007CB989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC694A92A26373F007CB989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC694B02A26373F007CB989;
+			remoteInfo = CaudalieTest;
+		};
+		2CC694D22A263744007CB989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC694A92A26373F007CB989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC694B02A26373F007CB989;
+			remoteInfo = CaudalieTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C6752C02A272BB400202535 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		2C6752C32A272EAE00202535 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
+		2C6752C42A272EAE00202535 /* MediaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaTableViewCell.xib; sourceTree = "<group>"; };
+		2C6752C92A2732A700202535 /* MediaListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListViewModel.swift; sourceTree = "<group>"; };
+		2C6752CC2A2741E400202535 /* ObservableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExtension.swift; sourceTree = "<group>"; };
+		2C6752CE2A275A6200202535 /* MediaImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaImageViewModel.swift; sourceTree = "<group>"; };
+		2C6752D02A276D6400202535 /* MediaDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailsViewController.swift; sourceTree = "<group>"; };
+		2CC694B12A263740007CB989 /* CaudalieTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaudalieTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC694B42A263740007CB989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CC694B62A263740007CB989 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CC694B82A263740007CB989 /* ListMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMediaViewController.swift; sourceTree = "<group>"; };
+		2CC694BB2A263740007CB989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CC694BD2A263743007CB989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC694C02A263743007CB989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CC694C22A263743007CB989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC694C72A263744007CB989 /* CaudalieTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaudalieTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC694CB2A263744007CB989 /* CaudalieTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaudalieTestTests.swift; sourceTree = "<group>"; };
+		2CC694D12A263744007CB989 /* CaudalieTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaudalieTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC694D52A263744007CB989 /* CaudalieTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaudalieTestUITests.swift; sourceTree = "<group>"; };
+		2CC694D72A263744007CB989 /* CaudalieTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaudalieTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45A736AFFA8195BB2B60A418 /* Pods-CaudalieTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-CaudalieTestUITests/Pods-CaudalieTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		490CFB399EF7183F40474966 /* Pods-CaudalieTest-CaudalieTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTest-CaudalieTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-CaudalieTest-CaudalieTestUITests/Pods-CaudalieTest-CaudalieTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54CD5F625086786FB98992B4 /* Pods_CaudalieTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaudalieTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9B54D94028985FAF5A2D4B /* Pods-CaudalieTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CaudalieTestTests/Pods-CaudalieTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7565F2C6ECC08D5CE089BF3C /* Pods-CaudalieTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTest.debug.xcconfig"; path = "Target Support Files/Pods-CaudalieTest/Pods-CaudalieTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A294FC5DE56EDC55A46766C0 /* Pods-CaudalieTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTest.release.xcconfig"; path = "Target Support Files/Pods-CaudalieTest/Pods-CaudalieTest.release.xcconfig"; sourceTree = "<group>"; };
+		A9E6FDE13C9852E599AEEE2B /* Pods_CaudalieTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaudalieTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD111568054B6C2C30F325C /* Pods-CaudalieTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTestUITests.release.xcconfig"; path = "Target Support Files/Pods-CaudalieTestUITests/Pods-CaudalieTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6995F9F4870F3D3C92C81C1 /* Pods-CaudalieTest-CaudalieTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTest-CaudalieTestUITests.release.xcconfig"; path = "Target Support Files/Pods-CaudalieTest-CaudalieTestUITests/Pods-CaudalieTest-CaudalieTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8012DE245C8D2F0311A6A49 /* Pods_CaudalieTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaudalieTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E6967C5FA3F7B58C45710F /* Pods-CaudalieTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaudalieTestTests.release.xcconfig"; path = "Target Support Files/Pods-CaudalieTestTests/Pods-CaudalieTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC694AE2A26373F007CB989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C8789CBED528E5C6C072FD /* Pods_CaudalieTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC694C42A263744007CB989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F0CC9C401094AF4247338C /* Pods_CaudalieTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC694CE2A263744007CB989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B2812F0F85614DBDABC838 /* Pods_CaudalieTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6752BD2A272AC400202535 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C6752C02A272BB400202535 /* Media.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C6752BE2A272AF800202535 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC694B82A263740007CB989 /* ListMediaViewController.swift */,
+				2C6752D02A276D6400202535 /* MediaDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2C6752BF2A272B1600202535 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C6752C92A2732A700202535 /* MediaListViewModel.swift */,
+				2C6752CE2A275A6200202535 /* MediaImageViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		2C6752C22A272E7F00202535 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C6752C32A272EAE00202535 /* MediaTableViewCell.swift */,
+				2C6752C42A272EAE00202535 /* MediaTableViewCell.xib */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		2C6752CB2A2741B800202535 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C6752CC2A2741E400202535 /* ObservableExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CC694A82A26373F007CB989 = {
+			isa = PBXGroup;
+			children = (
+				2CC694B32A263740007CB989 /* CaudalieTest */,
+				2CC694CA2A263744007CB989 /* CaudalieTestTests */,
+				2CC694D42A263744007CB989 /* CaudalieTestUITests */,
+				2CC694B22A263740007CB989 /* Products */,
+				9524289525EE96C2028FD848 /* Pods */,
+				8A709A4C171A85B1DA627A9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC694B22A263740007CB989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC694B12A263740007CB989 /* CaudalieTest.app */,
+				2CC694C72A263744007CB989 /* CaudalieTestTests.xctest */,
+				2CC694D12A263744007CB989 /* CaudalieTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC694B32A263740007CB989 /* CaudalieTest */ = {
+			isa = PBXGroup;
+			children = (
+				2C6752CB2A2741B800202535 /* Extensions */,
+				2C6752C22A272E7F00202535 /* Table View Cells */,
+				2C6752BF2A272B1600202535 /* View Models */,
+				2C6752BE2A272AF800202535 /* View Controllers */,
+				2C6752BD2A272AC400202535 /* Models */,
+				2CC694B42A263740007CB989 /* AppDelegate.swift */,
+				2CC694B62A263740007CB989 /* SceneDelegate.swift */,
+				2CC694BA2A263740007CB989 /* Main.storyboard */,
+				2CC694BD2A263743007CB989 /* Assets.xcassets */,
+				2CC694BF2A263743007CB989 /* LaunchScreen.storyboard */,
+				2CC694C22A263743007CB989 /* Info.plist */,
+			);
+			path = CaudalieTest;
+			sourceTree = "<group>";
+		};
+		2CC694CA2A263744007CB989 /* CaudalieTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC694CB2A263744007CB989 /* CaudalieTestTests.swift */,
+			);
+			path = CaudalieTestTests;
+			sourceTree = "<group>";
+		};
+		2CC694D42A263744007CB989 /* CaudalieTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC694D52A263744007CB989 /* CaudalieTestUITests.swift */,
+				2CC694D72A263744007CB989 /* CaudalieTestUITestsLaunchTests.swift */,
+			);
+			path = CaudalieTestUITests;
+			sourceTree = "<group>";
+		};
+		8A709A4C171A85B1DA627A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9E6FDE13C9852E599AEEE2B /* Pods_CaudalieTest.framework */,
+				54CD5F625086786FB98992B4 /* Pods_CaudalieTestTests.framework */,
+				E8012DE245C8D2F0311A6A49 /* Pods_CaudalieTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9524289525EE96C2028FD848 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7565F2C6ECC08D5CE089BF3C /* Pods-CaudalieTest.debug.xcconfig */,
+				A294FC5DE56EDC55A46766C0 /* Pods-CaudalieTest.release.xcconfig */,
+				490CFB399EF7183F40474966 /* Pods-CaudalieTest-CaudalieTestUITests.debug.xcconfig */,
+				C6995F9F4870F3D3C92C81C1 /* Pods-CaudalieTest-CaudalieTestUITests.release.xcconfig */,
+				5F9B54D94028985FAF5A2D4B /* Pods-CaudalieTestTests.debug.xcconfig */,
+				F8E6967C5FA3F7B58C45710F /* Pods-CaudalieTestTests.release.xcconfig */,
+				45A736AFFA8195BB2B60A418 /* Pods-CaudalieTestUITests.debug.xcconfig */,
+				ACD111568054B6C2C30F325C /* Pods-CaudalieTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC694B02A26373F007CB989 /* CaudalieTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC694DB2A263744007CB989 /* Build configuration list for PBXNativeTarget "CaudalieTest" */;
+			buildPhases = (
+				24B6BE5503BFDFE09634CD6C /* [CP] Check Pods Manifest.lock */,
+				2CC694AD2A26373F007CB989 /* Sources */,
+				2CC694AE2A26373F007CB989 /* Frameworks */,
+				2CC694AF2A26373F007CB989 /* Resources */,
+				A569BC978B3D3B0078AE606C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaudalieTest;
+			productName = CaudalieTest;
+			productReference = 2CC694B12A263740007CB989 /* CaudalieTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CC694C62A263744007CB989 /* CaudalieTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC694DE2A263744007CB989 /* Build configuration list for PBXNativeTarget "CaudalieTestTests" */;
+			buildPhases = (
+				FA182F2323394B50BA56811E /* [CP] Check Pods Manifest.lock */,
+				2CC694C32A263744007CB989 /* Sources */,
+				2CC694C42A263744007CB989 /* Frameworks */,
+				2CC694C52A263744007CB989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC694C92A263744007CB989 /* PBXTargetDependency */,
+			);
+			name = CaudalieTestTests;
+			productName = CaudalieTestTests;
+			productReference = 2CC694C72A263744007CB989 /* CaudalieTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CC694D02A263744007CB989 /* CaudalieTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC694E12A263744007CB989 /* Build configuration list for PBXNativeTarget "CaudalieTestUITests" */;
+			buildPhases = (
+				7F2A975B318B23D0FCFF45E5 /* [CP] Check Pods Manifest.lock */,
+				2CC694CD2A263744007CB989 /* Sources */,
+				2CC694CE2A263744007CB989 /* Frameworks */,
+				2CC694CF2A263744007CB989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC694D32A263744007CB989 /* PBXTargetDependency */,
+			);
+			name = CaudalieTestUITests;
+			productName = CaudalieTestUITests;
+			productReference = 2CC694D12A263744007CB989 /* CaudalieTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC694A92A26373F007CB989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2CC694B02A26373F007CB989 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2CC694C62A263744007CB989 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2CC694B02A26373F007CB989;
+					};
+					2CC694D02A263744007CB989 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2CC694B02A26373F007CB989;
+					};
+				};
+			};
+			buildConfigurationList = 2CC694AC2A26373F007CB989 /* Build configuration list for PBXProject "CaudalieTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC694A82A26373F007CB989;
+			productRefGroup = 2CC694B22A263740007CB989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC694B02A26373F007CB989 /* CaudalieTest */,
+				2CC694C62A263744007CB989 /* CaudalieTestTests */,
+				2CC694D02A263744007CB989 /* CaudalieTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC694AF2A26373F007CB989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC694C12A263743007CB989 /* LaunchScreen.storyboard in Resources */,
+				2C6752C62A272EAE00202535 /* MediaTableViewCell.xib in Resources */,
+				2CC694BE2A263743007CB989 /* Assets.xcassets in Resources */,
+				2CC694BC2A263740007CB989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC694C52A263744007CB989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC694CF2A263744007CB989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24B6BE5503BFDFE09634CD6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaudalieTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2A975B318B23D0FCFF45E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaudalieTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A569BC978B3D3B0078AE606C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaudalieTest/Pods-CaudalieTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaudalieTest/Pods-CaudalieTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CaudalieTest/Pods-CaudalieTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA182F2323394B50BA56811E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaudalieTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC694AD2A26373F007CB989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6752CD2A2741E400202535 /* ObservableExtension.swift in Sources */,
+				2C6752C52A272EAE00202535 /* MediaTableViewCell.swift in Sources */,
+				2C6752CA2A2732A700202535 /* MediaListViewModel.swift in Sources */,
+				2C6752CF2A275A6200202535 /* MediaImageViewModel.swift in Sources */,
+				2CC694B92A263740007CB989 /* ListMediaViewController.swift in Sources */,
+				2CC694B52A263740007CB989 /* AppDelegate.swift in Sources */,
+				2C6752C12A272BB400202535 /* Media.swift in Sources */,
+				2CC694B72A263740007CB989 /* SceneDelegate.swift in Sources */,
+				2C6752D12A276D6400202535 /* MediaDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC694C32A263744007CB989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC694CC2A263744007CB989 /* CaudalieTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC694CD2A263744007CB989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC694D82A263744007CB989 /* CaudalieTestUITestsLaunchTests.swift in Sources */,
+				2CC694D62A263744007CB989 /* CaudalieTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CC694C92A263744007CB989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC694B02A26373F007CB989 /* CaudalieTest */;
+			targetProxy = 2CC694C82A263744007CB989 /* PBXContainerItemProxy */;
+		};
+		2CC694D32A263744007CB989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC694B02A26373F007CB989 /* CaudalieTest */;
+			targetProxy = 2CC694D22A263744007CB989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CC694BA2A263740007CB989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC694BB2A263740007CB989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CC694BF2A263743007CB989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC694C02A263743007CB989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CC694D92A263744007CB989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC694DA2A263744007CB989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CC694DC2A263744007CB989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7565F2C6ECC08D5CE089BF3C /* Pods-CaudalieTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMWU4KV452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaudalieTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienrochelet.CaudalieTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2CC694DD2A263744007CB989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A294FC5DE56EDC55A46766C0 /* Pods-CaudalieTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMWU4KV452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaudalieTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienrochelet.CaudalieTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2CC694DF2A263744007CB989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9B54D94028985FAF5A2D4B /* Pods-CaudalieTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMWU4KV452;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienrochelet.CaudalieTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaudalieTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaudalieTest";
+			};
+			name = Debug;
+		};
+		2CC694E02A263744007CB989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E6967C5FA3F7B58C45710F /* Pods-CaudalieTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMWU4KV452;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienrochelet.CaudalieTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaudalieTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaudalieTest";
+			};
+			name = Release;
+		};
+		2CC694E22A263744007CB989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A736AFFA8195BB2B60A418 /* Pods-CaudalieTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMWU4KV452;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienrochelet.CaudalieTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaudalieTest;
+			};
+			name = Debug;
+		};
+		2CC694E32A263744007CB989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD111568054B6C2C30F325C /* Pods-CaudalieTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMWU4KV452;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienrochelet.CaudalieTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaudalieTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC694AC2A26373F007CB989 /* Build configuration list for PBXProject "CaudalieTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC694D92A263744007CB989 /* Debug */,
+				2CC694DA2A263744007CB989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC694DB2A263744007CB989 /* Build configuration list for PBXNativeTarget "CaudalieTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC694DC2A263744007CB989 /* Debug */,
+				2CC694DD2A263744007CB989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC694DE2A263744007CB989 /* Build configuration list for PBXNativeTarget "CaudalieTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC694DF2A263744007CB989 /* Debug */,
+				2CC694E02A263744007CB989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC694E12A263744007CB989 /* Build configuration list for PBXNativeTarget "CaudalieTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC694E22A263744007CB989 /* Debug */,
+				2CC694E32A263744007CB989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CC694A92A26373F007CB989 /* Project object */;
+}
